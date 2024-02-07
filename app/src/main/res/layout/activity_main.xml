@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bottom_nav_background"
         app:itemIconTint="@drawable/bottom_nav_colors"
+        app:itemActiveIndicatorStyle="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_navigation" />

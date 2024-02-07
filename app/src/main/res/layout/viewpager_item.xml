@@ -18,7 +18,7 @@
             android:id="@+id/ivLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="45dp"
             android:fontFamily="@font/spf_pro_display_medium"
             android:layout_marginStart="20dp"
             android:src="@drawable/ic_location"
@@ -42,23 +42,23 @@
             android:id="@+id/ivFire"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="5dp"
             android:src="@drawable/ic_fire"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintEnd_toStartOf="@id/tvReactionCount"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvReactionCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginEnd="20dp"
             android:fontFamily="@font/spf_pro_display_medium"
             android:text="@string/reaction_count"
             android:textColor="@color/white"
             android:textSize="20sp"
-            app:layout_constraintEnd_toStartOf="@id/ivFire"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -92,7 +92,7 @@
             android:isIndicator="true"
             android:numStars="5"
             android:theme="@style/RatingBar"
-            android:stepSize="0.1"
+            android:stepSize="0.3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
