@@ -6,4 +6,8 @@
     <string name="settings">Settings</string>
     <string name="messages">Messages\n</string>
     <string name="statistics">Statistics</string>
+    <string name="location">Location</string>
+    <string name="reaction_count">Reaction Count</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
 </resources>

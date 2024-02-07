@@ -35,6 +35,7 @@ class ViewPagerAdapter :
                 tvLocation.text = item.location
                 tvTitle.text = item.title
                 tvPrice.text = item.price
+                ratingBar.rating = item.rate?.toFloat() ?: 0f
 
             }
         }
